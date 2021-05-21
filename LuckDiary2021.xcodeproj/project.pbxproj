@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420CF9CB2656C9F1001FABD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9CA2656C9F1001FABD3 /* AppDelegate.m */; };
+		420CF9CE2656C9F1001FABD3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9CD2656C9F1001FABD3 /* SceneDelegate.m */; };
+		420CF9D42656C9F1001FABD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420CF9D22656C9F1001FABD3 /* Main.storyboard */; };
+		420CF9D72656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9D52656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld */; };
+		420CF9D92656C9F4001FABD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420CF9D82656C9F4001FABD3 /* Assets.xcassets */; };
+		420CF9DC2656C9F4001FABD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420CF9DA2656C9F4001FABD3 /* LaunchScreen.storyboard */; };
+		420CF9DF2656C9F4001FABD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9DE2656C9F4001FABD3 /* main.m */; };
+		420CFA102656DDE8001FABD3 /* LDHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CFA032656DDE7001FABD3 /* LDHistoryView.m */; };
+		420CFA122656DDE8001FABD3 /* LDDiaryEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CFA072656DDE7001FABD3 /* LDDiaryEditorView.m */; };
+		420CFA132656DDE8001FABD3 /* LDLLLLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CFA0A2656DDE7001FABD3 /* LDLLLLTableViewController.m */; };
+		420CFA142656DDE8001FABD3 /* LDDiaryPaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CFA0C2656DDE7001FABD3 /* LDDiaryPaperViewController.m */; };
+		420CFA152656DDE8001FABD3 /* LDHistoryListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CFA0D2656DDE7001FABD3 /* LDHistoryListCellView.m */; };
+		420CFA232656E195001FABD3 /* LDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CFA222656E195001FABD3 /* LDViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420CF9C62656C9F1001FABD3 /* LuckDiary2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckDiary2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420CF9C92656C9F1001FABD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		420CF9CA2656C9F1001FABD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		420CF9CC2656C9F1001FABD3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		420CF9CD2656C9F1001FABD3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		420CF9D32656C9F1001FABD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		420CF9D62656C9F1001FABD3 /* LuckDiary2021.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LuckDiary2021.xcdatamodel; sourceTree = "<group>"; };
+		420CF9D82656C9F4001FABD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420CF9DB2656C9F4001FABD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		420CF9DD2656C9F4001FABD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420CF9DE2656C9F4001FABD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		420CF9F62656D942001FABD3 /* LDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDViewController.h; sourceTree = "<group>"; };
+		420CFA032656DDE7001FABD3 /* LDHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHistoryView.m; sourceTree = "<group>"; };
+		420CFA042656DDE7001FABD3 /* LDDiaryPaperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDiaryPaperViewController.h; sourceTree = "<group>"; };
+		420CFA052656DDE7001FABD3 /* LDDiaryEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDiaryEditorView.h; sourceTree = "<group>"; };
+		420CFA072656DDE7001FABD3 /* LDDiaryEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDiaryEditorView.m; sourceTree = "<group>"; };
+		420CFA082656DDE7001FABD3 /* LDDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDefines.h; sourceTree = "<group>"; };
+		420CFA092656DDE7001FABD3 /* LDHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHistoryView.h; sourceTree = "<group>"; };
+		420CFA0A2656DDE7001FABD3 /* LDLLLLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLLLLTableViewController.m; sourceTree = "<group>"; };
+		420CFA0B2656DDE7001FABD3 /* LDHistoryListCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHistoryListCellView.h; sourceTree = "<group>"; };
+		420CFA0C2656DDE7001FABD3 /* LDDiaryPaperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDiaryPaperViewController.m; sourceTree = "<group>"; };
+		420CFA0D2656DDE7001FABD3 /* LDHistoryListCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHistoryListCellView.m; sourceTree = "<group>"; };
+		420CFA0E2656DDE8001FABD3 /* LDLLLLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLLLLTableViewController.h; sourceTree = "<group>"; };
+		420CFA222656E195001FABD3 /* LDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420CF9C32656C9F1001FABD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420CF9BD2656C9F1001FABD3 = {
+			isa = PBXGroup;
+			children = (
+				420CF9C82656C9F1001FABD3 /* LuckDiary2021 */,
+				420CF9C72656C9F1001FABD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420CF9C72656C9F1001FABD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420CF9C62656C9F1001FABD3 /* LuckDiary2021.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420CF9C82656C9F1001FABD3 /* LuckDiary2021 */ = {
+			isa = PBXGroup;
+			children = (
+				420CF9F62656D942001FABD3 /* LDViewController.h */,
+				420CFA222656E195001FABD3 /* LDViewController.m */,
+				420CFA0E2656DDE8001FABD3 /* LDLLLLTableViewController.h */,
+				420CFA0A2656DDE7001FABD3 /* LDLLLLTableViewController.m */,
+				420CFA082656DDE7001FABD3 /* LDDefines.h */,
+				420CFA052656DDE7001FABD3 /* LDDiaryEditorView.h */,
+				420CFA072656DDE7001FABD3 /* LDDiaryEditorView.m */,
+				420CFA042656DDE7001FABD3 /* LDDiaryPaperViewController.h */,
+				420CFA0C2656DDE7001FABD3 /* LDDiaryPaperViewController.m */,
+				420CFA0B2656DDE7001FABD3 /* LDHistoryListCellView.h */,
+				420CFA0D2656DDE7001FABD3 /* LDHistoryListCellView.m */,
+				420CFA092656DDE7001FABD3 /* LDHistoryView.h */,
+				420CFA032656DDE7001FABD3 /* LDHistoryView.m */,
+				420CF9C92656C9F1001FABD3 /* AppDelegate.h */,
+				420CF9CA2656C9F1001FABD3 /* AppDelegate.m */,
+				420CF9CC2656C9F1001FABD3 /* SceneDelegate.h */,
+				420CF9CD2656C9F1001FABD3 /* SceneDelegate.m */,
+				420CF9D22656C9F1001FABD3 /* Main.storyboard */,
+				420CF9D82656C9F4001FABD3 /* Assets.xcassets */,
+				420CF9DA2656C9F4001FABD3 /* LaunchScreen.storyboard */,
+				420CF9DD2656C9F4001FABD3 /* Info.plist */,
+				420CF9DE2656C9F4001FABD3 /* main.m */,
+				420CF9D52656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld */,
+			);
+			path = LuckDiary2021;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		420CF9C52656C9F1001FABD3 /* LuckDiary2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420CF9E22656C9F4001FABD3 /* Build configuration list for PBXNativeTarget "LuckDiary2021" */;
+			buildPhases = (
+				420CF9C22656C9F1001FABD3 /* Sources */,
+				420CF9C32656C9F1001FABD3 /* Frameworks */,
+				420CF9C42656C9F1001FABD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckDiary2021;
+			productName = LuckDiary2021;
+			productReference = 420CF9C62656C9F1001FABD3 /* LuckDiary2021.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420CF9BE2656C9F1001FABD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					420CF9C52656C9F1001FABD3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 420CF9C12656C9F1001FABD3 /* Build configuration list for PBXProject "LuckDiary2021" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 420CF9BD2656C9F1001FABD3;
+			productRefGroup = 420CF9C72656C9F1001FABD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420CF9C52656C9F1001FABD3 /* LuckDiary2021 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420CF9C42656C9F1001FABD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420CF9DC2656C9F4001FABD3 /* LaunchScreen.storyboard in Resources */,
+				420CF9D92656C9F4001FABD3 /* Assets.xcassets in Resources */,
+				420CF9D42656C9F1001FABD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420CF9C22656C9F1001FABD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420CF9DF2656C9F4001FABD3 /* main.m in Sources */,
+				420CFA122656DDE8001FABD3 /* LDDiaryEditorView.m in Sources */,
+				420CFA142656DDE8001FABD3 /* LDDiaryPaperViewController.m in Sources */,
+				420CFA232656E195001FABD3 /* LDViewController.m in Sources */,
+				420CFA152656DDE8001FABD3 /* LDHistoryListCellView.m in Sources */,
+				420CFA102656DDE8001FABD3 /* LDHistoryView.m in Sources */,
+				420CF9CB2656C9F1001FABD3 /* AppDelegate.m in Sources */,
+				420CF9CE2656C9F1001FABD3 /* SceneDelegate.m in Sources */,
+				420CFA132656DDE8001FABD3 /* LDLLLLTableViewController.m in Sources */,
+				420CF9D72656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		420CF9D22656C9F1001FABD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420CF9D32656C9F1001FABD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		420CF9DA2656C9F4001FABD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420CF9DB2656C9F4001FABD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420CF9E02656C9F4001FABD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		420CF9E12656C9F4001FABD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		420CF9E32656C9F4001FABD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TMF257TUU;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Classes\"/**";
+				INFOPLIST_FILE = LuckDiary2021/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.addabtn.LuckDiary2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		420CF9E42656C9F4001FABD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TMF257TUU;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Classes\"/**";
+				INFOPLIST_FILE = LuckDiary2021/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.addabtn.LuckDiary2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420CF9C12656C9F1001FABD3 /* Build configuration list for PBXProject "LuckDiary2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420CF9E02656C9F4001FABD3 /* Debug */,
+				420CF9E12656C9F4001FABD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420CF9E22656C9F4001FABD3 /* Build configuration list for PBXNativeTarget "LuckDiary2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420CF9E32656C9F4001FABD3 /* Debug */,
+				420CF9E42656C9F4001FABD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		420CF9D52656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				420CF9D62656C9F1001FABD3 /* LuckDiary2021.xcdatamodel */,
+			);
+			currentVersion = 420CF9D62656C9F1001FABD3 /* LuckDiary2021.xcdatamodel */;
+			path = LuckDiary2021.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 420CF9BE2656C9F1001FABD3 /* Project object */;
+}
