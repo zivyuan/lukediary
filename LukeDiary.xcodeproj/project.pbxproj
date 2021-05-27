@@ -10,7 +10,7 @@
 		420CF9CB2656C9F1001FABD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9CA2656C9F1001FABD3 /* AppDelegate.m */; };
 		420CF9CE2656C9F1001FABD3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9CD2656C9F1001FABD3 /* SceneDelegate.m */; };
 		420CF9D42656C9F1001FABD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420CF9D22656C9F1001FABD3 /* Main.storyboard */; };
-		420CF9D72656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9D52656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld */; };
+		420CF9D72656C9F1001FABD3 /* LukeDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9D52656C9F1001FABD3 /* LukeDiary.xcdatamodeld */; };
 		420CF9D92656C9F4001FABD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420CF9D82656C9F4001FABD3 /* Assets.xcassets */; };
 		420CF9DC2656C9F4001FABD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420CF9DA2656C9F4001FABD3 /* LaunchScreen.storyboard */; };
 		420CF9DF2656C9F4001FABD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CF9DE2656C9F4001FABD3 /* main.m */; };
@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		420CF9C62656C9F1001FABD3 /* LuckDiary2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckDiary2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420CF9C62656C9F1001FABD3 /* LukeDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LukeDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420CF9C92656C9F1001FABD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		420CF9CA2656C9F1001FABD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		420CF9CC2656C9F1001FABD3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		420CF9BD2656C9F1001FABD3 = {
 			isa = PBXGroup;
 			children = (
-				420CF9C82656C9F1001FABD3 /* LuckDiary2021 */,
+				420CF9C82656C9F1001FABD3 /* LukeDiary */,
 				420CF9C72656C9F1001FABD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,12 +71,12 @@
 		420CF9C72656C9F1001FABD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				420CF9C62656C9F1001FABD3 /* LuckDiary2021.app */,
+				420CF9C62656C9F1001FABD3 /* LukeDiary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		420CF9C82656C9F1001FABD3 /* LuckDiary2021 */ = {
+		420CF9C82656C9F1001FABD3 /* LukeDiary */ = {
 			isa = PBXGroup;
 			children = (
 				420CF9F62656D942001FABD3 /* LDViewController.h */,
@@ -101,17 +101,17 @@
 				420CF9DA2656C9F4001FABD3 /* LaunchScreen.storyboard */,
 				420CF9DD2656C9F4001FABD3 /* Info.plist */,
 				420CF9DE2656C9F4001FABD3 /* main.m */,
-				420CF9D52656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld */,
+				420CF9D52656C9F1001FABD3 /* LukeDiary.xcdatamodeld */,
 			);
-			path = LuckDiary2021;
+			path = LukeDiary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		420CF9C52656C9F1001FABD3 /* LuckDiary2021 */ = {
+		420CF9C52656C9F1001FABD3 /* LukeDiary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 420CF9E22656C9F4001FABD3 /* Build configuration list for PBXNativeTarget "LuckDiary2021" */;
+			buildConfigurationList = 420CF9E22656C9F4001FABD3 /* Build configuration list for PBXNativeTarget "LukeDiary" */;
 			buildPhases = (
 				420CF9C22656C9F1001FABD3 /* Sources */,
 				420CF9C32656C9F1001FABD3 /* Frameworks */,
@@ -121,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = LuckDiary2021;
+			name = LukeDiary;
 			productName = LuckDiary2021;
-			productReference = 420CF9C62656C9F1001FABD3 /* LuckDiary2021.app */;
+			productReference = 420CF9C62656C9F1001FABD3 /* LukeDiary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 420CF9C12656C9F1001FABD3 /* Build configuration list for PBXProject "LuckDiary2021" */;
+			buildConfigurationList = 420CF9C12656C9F1001FABD3 /* Build configuration list for PBXProject "LukeDiary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				420CF9C52656C9F1001FABD3 /* LuckDiary2021 */,
+				420CF9C52656C9F1001FABD3 /* LukeDiary */,
 			);
 		};
 /* End PBXProject section */
@@ -184,7 +184,7 @@
 				420CF9CB2656C9F1001FABD3 /* AppDelegate.m in Sources */,
 				420CF9CE2656C9F1001FABD3 /* SceneDelegate.m in Sources */,
 				420CFA132656DDE8001FABD3 /* LDLLLLTableViewController.m in Sources */,
-				420CF9D72656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld in Sources */,
+				420CF9D72656C9F1001FABD3 /* LukeDiary.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,17 +327,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TMF257TUU;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZM5HF9W67K;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Classes\"/**";
-				INFOPLIST_FILE = LuckDiary2021/Info.plist;
+				INFOPLIST_FILE = LukeDiary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.addabtn.LuckDiary2021;
+				PRODUCT_BUNDLE_IDENTIFIER = com.addabtn.LukeDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Luke Diary - ADHoc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -347,17 +349,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TMF257TUU;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZM5HF9W67K;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Classes\"/**";
-				INFOPLIST_FILE = LuckDiary2021/Info.plist;
+				INFOPLIST_FILE = LukeDiary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.addabtn.LuckDiary2021;
+				PRODUCT_BUNDLE_IDENTIFIER = com.addabtn.LukeDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Luke Diary - ADHoc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -365,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		420CF9C12656C9F1001FABD3 /* Build configuration list for PBXProject "LuckDiary2021" */ = {
+		420CF9C12656C9F1001FABD3 /* Build configuration list for PBXProject "LukeDiary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				420CF9E02656C9F4001FABD3 /* Debug */,
@@ -374,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		420CF9E22656C9F4001FABD3 /* Build configuration list for PBXNativeTarget "LuckDiary2021" */ = {
+		420CF9E22656C9F4001FABD3 /* Build configuration list for PBXNativeTarget "LukeDiary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				420CF9E32656C9F4001FABD3 /* Debug */,
@@ -386,13 +390,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		420CF9D52656C9F1001FABD3 /* LuckDiary2021.xcdatamodeld */ = {
+		420CF9D52656C9F1001FABD3 /* LukeDiary.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				420CF9D62656C9F1001FABD3 /* LuckDiary2021.xcdatamodel */,
 			);
 			currentVersion = 420CF9D62656C9F1001FABD3 /* LuckDiary2021.xcdatamodel */;
-			path = LuckDiary2021.xcdatamodeld;
+			path = LukeDiary.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
